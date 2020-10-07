@@ -1,0 +1,14 @@
+name: Substable
+type: theme
+description: A default base theme using Drupal 8.0.0's core markup and CSS.
+package: Custom
+core: 8.x
+base theme: stable
+screenshot: submarine.jpg
+
+regions:
+  header: 'Header'
+  content: 'Content'
+  sidebar_left: 'Sidebar - Left'
+  sidebar_right: 'Sidebar - Right'
+  footer: 'Footer'

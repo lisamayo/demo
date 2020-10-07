@@ -1,0 +1,33 @@
+uuid: 292f0fdf-bff9-46f9-a7a8-4ff16d8beab4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5c2f7f8a-d321-4014-a312-fbf9daa0f912'
+  module:
+    - block_content
+    - node
+  theme:
+    - substable
+id: sidebarright
+theme: substable
+region: sidebar_right
+weight: 0
+provider: null
+plugin: 'block_content:5c2f7f8a-d321-4014-a312-fbf9daa0f912'
+settings:
+  id: 'block_content:5c2f7f8a-d321-4014-a312-fbf9daa0f912'
+  label: 'Sidebar Right'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      home_page: home_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

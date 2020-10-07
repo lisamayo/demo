@@ -1,0 +1,33 @@
+uuid: 81b00e01-aee8-47d8-9369-3f7711e759a0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:685cc023-6317-45bf-81ee-050572ab072e'
+  module:
+    - block_content
+    - node
+  theme:
+    - substable
+id: headerblocktop
+theme: substable
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:685cc023-6317-45bf-81ee-050572ab072e'
+settings:
+  id: 'block_content:685cc023-6317-45bf-81ee-050572ab072e'
+  label: 'Header Block Top'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      home_page: home_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,33 @@
+uuid: 96b07be8-3431-4f8c-a9d6-b175439a5cef
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fb50b740-b771-48ea-84ac-0b7de358fb58'
+  module:
+    - block_content
+    - node
+  theme:
+    - substable
+id: pagetitle
+theme: substable
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:fb50b740-b771-48ea-84ac-0b7de358fb58'
+settings:
+  id: 'block_content:fb50b740-b771-48ea-84ac-0b7de358fb58'
+  label: 'Page Title'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      home_page: home_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

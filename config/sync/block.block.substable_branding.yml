@@ -1,0 +1,25 @@
+uuid: d1545f3c-46c7-48f6-ab60-339ca738153c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - substable
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: substable_branding
+theme: substable
+region: header
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }
